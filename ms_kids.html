@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="cs-cz">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mateřská Škola Roveň</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>MŠ Roveň</h1>
+        <img src="sovicky-logo.png" alt="sovičky logo" id="sovicky-logo">
+        <div id="kidCollection"></div>
+    </header>
+
+    <div class="container">
+        <h2>Přidat sovičku</h2>
+        <form id="kidForm">
+            <label for="firstName">Jméno:</label><br>
+            <input type="text" id="firstName" name="firstName"><br><br>
+            <label for="lastName">Příjmení:</label><br>
+            <input type="text" id="lastName" name="lastName"><br><br>
+            <label for="birthDate">Datum narození:</label><br>
+            <input type="date" id="birthDate" name="birthDate"><br><br>
+            <label>
+                <hr>
+            </label>
+            <label for="residence">Bydliště:</label><br>
+            <input type="text" name="residence" id="residence"><br><br>
+            <label for="motherPhone">Tel. kontakt matky:</label><br>
+            <input name="motherPhone" id="motherPhone" type="tel"><br><br>
+            <label for="fatherPhone">Tel. kontakt otce:</label><br>
+            <input name="fatherPhone" id="fatherPhone" type="tel"><br><br>
+            <button type="submit">Přidat</button>
+        </form>
+    </div>
+
+    <script src="ms_kids.js"></script>
+
+    <footer style="margin-top: 15px;">
+        &copy Pechy32 2024
+    </footer>
+</body>
+
+</html>
